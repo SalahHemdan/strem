@@ -132,7 +132,7 @@ def time_to_seconds(time):
 
 
 
-@Client.on_message(command(["/play", "بارلو" ,"عمرو" ,"كرستين" ,"شغل" ,"تشغيل", f"/play@{BOT_USERNAME}", "تشغيل"]))
+@Client.on_message(command(["/play", "الماس" ,"صلاح" ,"اتكلم" ,"شغل" ,"تشغيل", f"/play@{BOT_USERNAME}", "تشغيل"]))
 async def play(_, message: Message):
     chat_id = message.chat.id
     if message.sender_chat:
@@ -280,7 +280,7 @@ async def play(_, message: Message):
             else file_name,
         )
         title = "Audio Yang Dipilih Dari Telegram"
-        link = "https://t.me/bar_lo0o"
+        link = "https://t.me/CR_T2"
         thumb = "cache/Audio.png"
         videoid = "smex1"
     elif url:
